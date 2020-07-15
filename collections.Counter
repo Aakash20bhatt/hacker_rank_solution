@@ -1,0 +1,12 @@
+from collections import Counter
+n=int(input())
+l=[int(i) for i in input().split()]
+m=int(input())
+dic=Counter(l)
+income=0
+for i in range(m):
+    size,price=map(int,input().split())
+    if dic[size]:
+        income+=price
+        dic[size]-=1
+print(income)
