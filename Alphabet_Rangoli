@@ -2,7 +2,7 @@ You are given an integer, N. Your task is to print an alphabet rangoli of size N
 
 Different sizes of alphabet rangoli are shown below: 
 
-#size 3
+#size 3 
 
 ----c----
 --c-b-c--
